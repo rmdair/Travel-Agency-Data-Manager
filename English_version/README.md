@@ -1,26 +1,21 @@
-<div align="center">
-  <h1>Booking Management – Travel Agency</h1>
-  &nbsp;
+<h1 align="center">Data Management System for Travel Agency</h1> 
 
 ![Language](https://img.shields.io/badge/Language-Java_23-d2b48c?style=for-the-badge&logo=openjdk&logoColor=white) 
 ![Database](https://img.shields.io/badge/Database-MySQL-00618E?style=for-the-badge&logo=mysql&logoColor=white) 
 ![Infrastructure](https://img.shields.io/badge/Container-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-</div>
 
 <p align="center">
   <img src="../assets/banner.webp" alt="Banner" width="60%">
 </p>
 
-## Overview
-
 This JavaFX application is designed as **a dedicated workspace for travel agency staff**.  
-It allows them to easily manage client bookings while accessing pre-filled flight and airline information, which is updated by the administration.  
+It allows them to easily manage client reservations while accessing pre-filled flight and airline information, which is updated by the administration.  
 
 The application is based on a **MySQL database** and offers different levels of access:  
-- **Travel consultants** manage clients and their bookings only.  
+- **Travel consultants** manage clients and their reservations only.  
 - **The administration** manages flights, airlines, and agency staff.  
 
-&nbsp;
+---
 
 ## Download
 
@@ -32,32 +27,29 @@ You can download the stable, ready-to-use version here:
   </a>
 </p>
 
-&nbsp;
 
 ## Conceptual Data Model (CDM)
 
 Here is the structure of the project's main entities:
 
 <p align="center">
-  <img src="docs/Conceptual_Data_Model.png" alt="CDM" width="80%">
+  <img src="../docs/Conceptual_Data_Model.png" alt="CDM" width="80%">
 </p>
 
 Bookings are the central element of the model.  
-Each of them is associated with the client who makes the booking, the travel consultant who manages it, and the corresponding flight.
+Each of them is associated with the client who makes the reservation, the travel consultant who manages it, and the corresponding flight.
 
-&nbsp;
 
 ## Features
 
 Travel consultants can:  
-- Add, modify, or cancel a client's booking.  
+- Add, modify, or cancel a client's reservation.  
 - View available flights and operating airlines.  
-- Access a consolidated view of bookings in Excel format.  
+- Access a consolidated view of reservations in Excel format.  
 - Manage clients and track their travel history.  
 
-&nbsp;
 
-## 📂 Project Structure
+## Project Structure
 
 ```plaintext
 docker/                 → MySQL container configuration
@@ -90,7 +82,6 @@ src/                    → Project source code
 │   ├── Main.java       → Main application entry point
 ```
 
-&nbsp;
 
 ## Docker Commands
 
@@ -113,9 +104,9 @@ docker exec -it project_travel_agency mysql -u root -p
 ```bash
 docker-compose down
 ```
-&nbsp;
 
-## 🖥️ Launching the JavaFX Interface
+
+## Launching the JavaFX Interface
 
 ### Running from Eclipse  
 **Eclipse IDE** is a powerful and widely used integrated development environment for Java programming.
@@ -137,7 +128,6 @@ The graphical interface can be launched directly from Eclipse, which is ideal to
 
 5. **Click Run** to launch the application  
 
-&nbsp;
 
 ### Running from the Terminal  
 The application can also be executed outside the IDE using the following command:  
@@ -145,27 +135,25 @@ The application can also be executed outside the IDE using the following command
 java -p "javafx-sdk-23.0.1/lib" --add-modules javafx.controls,javafx.base,javafx.fxml,javafx.graphics,javafx.media,javafx.web --add-opens=javafx.graphics/javafx.scene=ALL-UNNAMED --add-exports javafx.base/com.sun.javafx.event=ALL-UNNAMED -jar executable.jar
 ```
 
-&nbsp;
 
-## 📖 Documentation
+## Documentation
 One detailed report about the project is available:
 
-**English Version** : [Read the report in English](docs/reservations_management_report.pdf)  
-**French Version** : [Lire le rapport en français](../docs/rapport_gestion_reservations.pdf)  
+**English Version** : [Read the report in English](../docs/reservation-data-management-EN.pdf)  
+**French Version** : [Lire le rapport en français](../docs/gestion-donnees-reservations-FR.pdf)  
 
 
-&nbsp;
 
-## 📸 Application Overview
+## Application Overview
 
 ### Clients Tab
 <p align="center">
   <img src="../assets/update_client.webp" alt="Clients Tab" width="80%">
 </p>
 
-### Bookings Tab
+### Reservations Tab
 <p align="center">
-  <img src="../assets/update_reservation.webp" alt="Bookings Tab" width="80%">
+  <img src="../assets/update_reservation.webp" alt="Reservations Tab" width="80%">
 </p>
 
 ### Flights Tab
@@ -188,7 +176,6 @@ One detailed report about the project is available:
   <img src="../assets/excel_window.webp" alt="Excel Overview" width="80%">
 </p>
 
-&nbsp;
 
 ## Clone and Launch the project
 

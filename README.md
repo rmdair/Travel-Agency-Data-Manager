@@ -1,17 +1,12 @@
-<div align="center">
-  <h1>Gestion des réservations – Agence de voyage</h1>
-  &nbsp;
+<h1 align="center">Système de gestion des données pour agence de voyage</h1> 
 
 ![Langage](https://img.shields.io/badge/Langage_-Java_23-d2b48c?style=for-the-badge&logo=openjdk&logoColor=white) 
 ![Base de données](https://img.shields.io/badge/Base_de_données-MySQL-00618E?style=for-the-badge&logo=mysql&logoColor=white) 
 ![Infrastructure](https://img.shields.io/badge/Conteneur-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-</div>      
 
 <p align="center">
   <img src="assets/banner.webp" alt="Banner" width="60%">
 </p>
-
-## Introduction
 
 Cette application JavaFX est conçue comme un espace de travail dédié aux conseillers d'une agence de voyage.  
 Elle leur permet de gérer facilement les réservations des clients, en accédant aux informations préremplies sur les vols et les compagnies aériennes, mises à jour par l'administration.  
@@ -20,7 +15,7 @@ L’application repose sur une **base de données MySQL relationnelle** et offre
 - **Les conseillers** gèrent uniquement les clients et leurs réservations.  
 - **L’administration** gère les vols, les compagnies aériennes et les conseillers.
 
-&nbsp;
+---
 
 ## Téléchargement
 
@@ -32,7 +27,6 @@ Vous pouvez télécharger la version stable prête à l'emploi ici :
   </a>
 </p>
 
-&nbsp;
 
 ## Modèle conceptuel de données (MCD)
 
@@ -45,7 +39,6 @@ Voici la structure des principales entités du projet :
 Les réservations constituent l'élément central du modèle. 
 Chacune d'entre elles est associée au client qui l'effectue, au conseiller qui la gère, ainsi qu’au vol correspondant.
 
-&nbsp;
 
 ## Fonctionnalités
 
@@ -55,9 +48,8 @@ Les conseillers peuvent :
 - Accéder à une vue globale des réservations au format Excel  
 - Gérer les clients et suivre leur historique de voyage  
 
-&nbsp;
 
-## 📂 Arborescence du projet 
+## Arborescence du projet 
 
 ```plaintext
 docker/                → Configuration du conteneur MySQL
@@ -90,7 +82,6 @@ src/                   → Code source du projet
 │   ├── Main.java      → Classe principale
 ```
 
-&nbsp;
 
 ## Commandes Docker
 
@@ -113,9 +104,8 @@ docker exec -it project_travel_agency mysql -u root -p
 docker-compose down
 ```
 
-&nbsp;
 
-## 🖥️ Lancer l'interface JavaFX
+## Lancer l'interface JavaFX
 
 ### Méthode recommandée : exécution depuis Eclipse  
 L'interface graphique peut être lancée directement depuis **l'IDE Eclipse**, ce qui constitue la solution la plus simple :  
@@ -134,17 +124,15 @@ L'application peut également être exécutée en dehors de l'IDE avec la comman
 java -p "javafx-sdk-23.0.1/lib" --add-modules javafx.controls,javafx.base,javafx.fxml,javafx.graphics,javafx.media,javafx.web --add-opens=javafx.graphics/javafx.scene=ALL-UNNAMED --add-exports javafx.base/com.sun.javafx.event=ALL-UNNAMED -jar executable.jar
 ```
 
-&nbsp;
 
-## 📖 Documentation
+## Documentation
 Deux rapports détaillés du projet sont disponibles :  
 
-**Version française** : [Lire le rapport en français](docs/rapport_gestion_reservations.pdf)  
-**Version anglaise** : [Read the report in English](English_version/docs/reservations_management_report.pdf)  
+**Version française** : [Lire le rapport en français](docs/gestion-donnees-reservations-FR.pdf)   
+**Version anglaise** : [Read the report in English](docs/reservation-data-management-EN.pdf)  
 
-&nbsp;
 
-## 📸 Aperçu de l'application
+## Aperçu de l'application
 
 ### Interface d'accueil
 <p align="center">
@@ -176,7 +164,6 @@ Deux rapports détaillés du projet sont disponibles :
   <img src="assets/excel_window.webp" alt="Excel" width="80%">
 </p>
 
-&nbsp;
 
 ## Pour cloner et démarrer ce projet  
 
