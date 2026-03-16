@@ -1,8 +1,10 @@
 <h1 align="center">Data Management System for Travel Agency</h1> 
 
-![Language](https://img.shields.io/badge/Language-Java_23-d2b48c?style=for-the-badge&logo=openjdk&logoColor=white) 
-![Database](https://img.shields.io/badge/Database-MySQL-00618E?style=for-the-badge&logo=mysql&logoColor=white) 
-![Infrastructure](https://img.shields.io/badge/Container-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+<p align="center">
+  <img src="https://img.shields.io/badge/Language-Java_23-d2b48c?style=for-the-badge&logo=openjdk&logoColor=white" alt="Language">
+  <img src="https://img.shields.io/badge/Database-MySQL-00618E?style=for-the-badge&logo=mysql&logoColor=white" alt="Database">
+  <img src="https://img.shields.io/badge/Container-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Infrastructure">
+</p>
 
 <p align="center">
   <img src="../assets/banner.webp" alt="Banner" width="60%">
@@ -140,7 +142,7 @@ java -p "javafx-sdk-23.0.1/lib" --add-modules javafx.controls,javafx.base,javafx
 One detailed report about the project is available:
 
 **English Version** : [Read the report in English](../docs/reservation-data-management-EN.pdf)  
-**French Version** : [Lire le rapport en français](../docs/gestion-donnees-reservations-FR.pdf)  
+**French Version** : [Lire le rapport en français](../docs/gestion-donnees-reservations-FR.pdf)   
 
 
 

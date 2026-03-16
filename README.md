@@ -1,8 +1,10 @@
 <h1 align="center">Système de gestion des données pour agence de voyage</h1> 
 
-![Langage](https://img.shields.io/badge/Langage_-Java_23-d2b48c?style=for-the-badge&logo=openjdk&logoColor=white) 
-![Base de données](https://img.shields.io/badge/Base_de_données-MySQL-00618E?style=for-the-badge&logo=mysql&logoColor=white) 
-![Infrastructure](https://img.shields.io/badge/Conteneur-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+<p align="center">
+  <img src="https://img.shields.io/badge/Langage-Java_23-d2b48c?style=for-the-badge&logo=openjdk&logoColor=white" alt="Langage">
+  <img src="https://img.shields.io/badge/Base%20de%20donn%C3%A9es-MySQL-00618E?style=for-the-badge&logo=mysql&logoColor=white" alt="Base de données">
+  <img src="https://img.shields.io/badge/Conteneur-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Infrastructure">
+</p>
 
 <p align="center">
   <img src="assets/banner.webp" alt="Banner" width="60%">
@@ -130,7 +132,7 @@ Deux rapports détaillés du projet sont disponibles :
 
 **Version française** : [Lire le rapport en français](docs/gestion-donnees-reservations-FR.pdf)   
 **Version anglaise** : [Read the report in English](docs/reservation-data-management-EN.pdf)  
-
+ 
 
 ## Aperçu de l'application
 
