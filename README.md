@@ -170,9 +170,9 @@ Deux rapports détaillés du projet sont disponibles :
 ## Pour cloner et démarrer ce projet  
 
 ```bash
-git clone https://github.com/rmdair/Gestion_Reservations_JavaFX.git
+git clone https://github.com/rmdair/Travel-Agency-Data-Manager.git
 
-cd Gestion_Reservations_JavaFX
+cd Travel-Agency-Data-Manager
 
 # Lancer l'application (vérifiez que le chemin du SDK JavaFX est correct)
 java -p "javafx-sdk-23.0.1/lib" --add-modules javafx.controls,javafx.base,javafx.fxml,javafx.graphics,javafx.media,javafx.web --add-opens=javafx.graphics/javafx.scene=ALL-UNNAMED --add-exports javafx.base/com.sun.javafx.event=ALL-UNNAMED -jar executable.jar
